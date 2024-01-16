@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf_utils.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gmunoz <gmunoz@student.42.fr>              +#+  +:+       +#+        */
+/*   By: gmunoz 		                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 12:56:55 by gmunoz            #+#    #+#             */
 /*   Updated: 2024/01/15 19:20:45 by gmunoz           ###   ########.fr       */
