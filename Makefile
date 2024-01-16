@@ -3,7 +3,7 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gmunoz <gmunoz@student.42.fr>              +#+  +:+       +#+         #
+#    By: gmunoz                                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/19 15:11:47 by gmunoz            #+#    #+#              #
 #    Updated: 2024/01/16 14:25:07 by gmunoz           ###   ########.fr        #
