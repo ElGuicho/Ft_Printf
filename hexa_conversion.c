@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   hexa_conversion.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gmunoz <gmunoz@student.42.fr>              +#+  +:+       +#+        */
+/*   By: gmunoz                                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/10 15:47:54 by gmunoz            #+#    #+#             */
 /*   Updated: 2024/01/15 18:28:38 by gmunoz           ###   ########.fr       */
