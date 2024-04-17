@@ -15,22 +15,7 @@
 
 int		main(void)
 {
-    //FT_PRINTF Test Template
-    /* Printf */
-        //printf("Test 1\t\t: NULL\n\n");
-        //printf("Function\t: Printf\n");
-        //printf("Input\t\t: %NULL\n");
-        //printf("Output\t\t: ");
-        //printf("%NULL\n\n");
-    /* ft_printf */
-        //ft_printf("Function\t: ft_printf\n");
-        //ft_printf("Input\t\t: %NULL\n");
-        //ft_printf("Output\t\t: ");
-        //ft_printf("%NULL\n\n");
-
-    // ft_plusFlag(ft_minus(ft_hash(ft_whatEver(va List))));
-
-    //Mod Check
+    //% Check
     printf("Test 1\t\t: Mod Check\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: %%\n");
@@ -42,7 +27,7 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%%\n\n");
 
-    //String Format Check
+    //str Check
     printf("Test 2\t\t: String Format Check\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: This is a test string.\n");
@@ -54,7 +39,7 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("This is a test string.\n\n");
 
-    //Specifier d check
+    //d check
     printf("Test 3\t\t: d\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: 650\n");
@@ -76,7 +61,7 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%d\n\n", -650);
 
-    //Specifier u check
+    //u check
     printf("Test 17\t\t: u\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: 650\n");
@@ -88,7 +73,6 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%u\n\n", 650);
 
-    //Specifier u check
     printf("Test 18\t\t: u\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: 4000000000\n");
@@ -100,7 +84,6 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%u\n\n", 4000000000);
 
-    //Specifier u check
     printf("Test 18\t\t: u\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: -650\n");
@@ -112,7 +95,7 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%u\n\n", -650);
 
-    //Specifier s check
+    //s check
     printf("Test 21\t\t: s\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: N/A\n");
@@ -124,7 +107,6 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%s\n\n", "");
 
-    //Specifier s check
     printf("Test 22\t\t: s\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: NULL\n");
@@ -136,7 +118,6 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%s\n\n", NULL);
 
-    //Specifier s check
     printf("Test 24\t\t: s\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: Coconut\n");
@@ -148,7 +129,7 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%s\n\n", "Coconut");
 
-    //Specifier c check
+    //c check
     printf("Test 30\t\t: c\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: a\n");
@@ -160,7 +141,7 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%c\n\n", 'a');
 
-    //Specifier x check
+    //x check
     printf("Test 50\t\t: x\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: 16\n");
@@ -172,7 +153,6 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%x\n\n", 16);
 
-    //Specifier x check
     printf("Test 51\t\t: x\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: 2048\n");
@@ -184,7 +164,6 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%x\n\n", 2048);
 
-    //Specifier x check
     printf("Test 52\t\t: x\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: 16777215\n");
@@ -196,7 +175,7 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%x\n\n", 16777215);
 
-    //Specifier X check
+    //X check
     printf("Test 53\t\t: X\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: 6777215\n");
@@ -208,7 +187,7 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%X\n\n", 6777215);
 
-    //Specifier p check
+    //p check
     int     tmpInt;
 
     tmpInt = 25;
@@ -223,7 +202,7 @@ int		main(void)
     ft_printf("Output\t\t: ");
     ft_printf("%p\n\n", &tmpInt);
 
-	//%v
+	//%v check
     /* printf("Test 59\t\t: v\n\n");
     printf("Function\t: Printf\n");
     printf("Input\t\t: v\n");
